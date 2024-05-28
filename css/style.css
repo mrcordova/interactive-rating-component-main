@@ -32,9 +32,10 @@ body {
 .ratings-card {
     display: flex;
     flex-direction: column;
-    inline-size: 20rem;
+    inline-size: 20.5rem;
     background-color: var(--dark-blue);
     padding-inline: 1.2rem;
+    padding-block: 1rem;
 }
 .hide {
     display: none;
@@ -53,4 +54,15 @@ input[type="radio"] {
     align-items: center;
     justify-content: center;
     /* padding: 2rem; */
+}
+
+.rating-head {
+    font-size: 1.5rem;
+    color: var(--white);
+}
+
+.rating-para {
+    color: var(--light-grey);
+    font-size: 0.9rem;
+    max-width: 40ch;
 }
