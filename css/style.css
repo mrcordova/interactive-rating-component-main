@@ -27,6 +27,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: var(--very-dark-blue );
+}
+.ratings-card {
+    display: flex;
+    flex-direction: column;
+    inline-size: 20rem;
+    background-color: var(--dark-blue);
 }
 .hide {
     display: none;
