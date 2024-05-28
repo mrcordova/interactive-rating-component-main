@@ -1,5 +1,5 @@
 :root {
-    --orange: hsl(25, 97%. 53%);
+    --orange: hsl(25, 97%, 53%);
 
     --white: hsl(0, 0%, 100%);
     --light-grey: hsl(217, 12%, 63%);
@@ -27,7 +27,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--very-dark-blue );
+    background-color: var(--very-dark-blue);
 }
 .ratings-card {
     display: flex;
@@ -40,20 +40,40 @@ body {
 .hide {
     display: none;
 }
-
+label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    background-color: var(--very-dark-blue);
+    width: 40px;
+    height: 40px;
+    /* margin-inline-end: 1rem; */
+    color: var(--white);
+}
 input[type="radio"] {
     display: none;
 }
 
 .star-img {
     background-color: var(--very-dark-blue);
-    width: 40px;
-    height: 40px;
+    width: 42px;
+    height: 42px;
     border-radius: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
     /* padding: 2rem; */
+}
+
+.radio-grp {
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* text-align: center; */
+    /* align-items: center; */
+    justify-content: space-between;
 }
 
 .rating-head {
@@ -66,3 +86,9 @@ input[type="radio"] {
     font-size: 0.9rem;
     max-width: 40ch;
 }
+.submit-btn {
+    background-color: var(--orange);
+    padding-inline: 7rem;
+    padding-block: 1rem;
+}
+
