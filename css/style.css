@@ -36,6 +36,8 @@ body {
     background-color: var(--dark-blue);
     padding-inline: 1.6rem;
     padding-block: 1rem;
+
+    border-radius: 20px;
 }
 .hide {
     display: none;
@@ -79,12 +81,14 @@ input[type="radio"] {
 .rating-head {
     font-size: 1.5rem;
     color: var(--white);
+    padding-block: 1rem 0rem;
 }
 
 .rating-para {
     color: var(--light-grey);
     font-size: 0.88rem;
     max-width: 31ch;
+    padding-block: 1rem 1.5rem;
 }
 .submit-btn {
 
