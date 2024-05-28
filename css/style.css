@@ -34,7 +34,7 @@ body {
     flex-direction: column;
     inline-size: 20.5rem;
     background-color: var(--dark-blue);
-    padding-inline: 1.2rem;
+    padding-inline: 1.6rem;
     padding-block: 1rem;
 }
 .hide {
