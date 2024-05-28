@@ -83,10 +83,12 @@ input[type="radio"] {
 
 .rating-para {
     color: var(--light-grey);
-    font-size: 0.9rem;
-    max-width: 40ch;
+    font-size: 0.88rem;
+    max-width: 31ch;
 }
 .submit-btn {
+
+    margin-block: 1.5rem 1rem;
     background-color: var(--orange);
     padding-inline: 7rem;
     padding-block: 0.7rem;
