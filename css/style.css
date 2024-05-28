@@ -46,18 +46,18 @@ label {
     justify-content: center;
     border-radius: 50px;
     font-size: 0.9rem;
-    background-color: var(--very-dark-blue);
+    background-color:  hsl( from var(--very-dark-blue) h s l / 0.5);
     width: 40px;
     height: 40px;
     /* margin-inline-end: 1rem; */
-    color: var(--white);
+    color: var(--light-grey);
 }
 input[type="radio"] {
     display: none;
 }
 
 .star-img {
-    background-color: var(--very-dark-blue);
+    background-color: hsl(from var(--very-dark-blue) h s l / 0.5);
     width: 42px;
     height: 42px;
     border-radius: 50px;
