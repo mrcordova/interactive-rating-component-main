@@ -21,3 +21,17 @@
     font-weight: 700;
     font-style: normal;
 }
+
+body {
+    height: 100svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hide {
+    display: none;
+}
+
+input[type="radio"] {
+    display: none;
+}
