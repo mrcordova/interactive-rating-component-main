@@ -54,10 +54,19 @@ label {
     /* margin-inline-end: 1rem; */
     color: var(--light-grey);
 }
+
+label:has(input[type="radio"]:checked) {
+    background-color: red;
+    
+}
+label:is(:hover, :focus) {
+    cursor:  pointer;
+    filter: brightness(3);
+}
+
 input[type="radio"] {
     display: none;
 }
-
 .star-img {
     background-color: hsl(from var(--dark-blue) h s l / 1);
     width: 42px;
@@ -100,4 +109,7 @@ input[type="radio"] {
     border-radius: 40px;
     font-size: 1rem;
 }
+.submit-btn:is(:hover, :focus) {
+    cursor: pointer;
 
+}
