@@ -42,12 +42,16 @@ body {
     /* padding-block:  1rem 1rem; */
     /* border-radius: 20px; */
 
+    inline-size: clamp(20.5rem, 18.6338rem + 7.9624vw, 25.8rem);
+    padding-inline: clamp(1.6rem, 1.4592rem + 0.6009vw, 2rem) clamp(1.6rem, 1.3183rem + 1.2019vw, 2.4rem);
+    padding-block: clamp(1rem, 0.5775rem + 1.8028vw, 2.2rem) clamp(1rem, 0.6127rem + 1.6526vw, 2.1rem);
+    border-radius: clamp(1.25rem, 1.0299rem + 0.9390vw, 1.875rem);
     /* Desktop */
-    inline-size: 25.8rem;
+    /* inline-size: 25.8rem; */
     /* block-size: 25.8rem; */
-    padding-inline: 2rem 2.4rem;
-    padding-block:  2.2rem 2.1rem;
-    border-radius: 30px;
+    /* padding-inline: 2rem 2.4rem; */
+    /* padding-block:  2.2rem 2.1rem; */
+    /* border-radius: 30px; */
 }
 .hide {
     display: none;
@@ -66,9 +70,14 @@ label {
     /* height: 40px; */
 
     border-radius: 50px;
-    font-size: 1rem;
-    width: 50px;
-    height: 50px;
+    font-size: clamp(0.9rem, 0.8648rem + 0.1502vw, 1rem);
+    width: clamp(2.5rem, 2.2799rem + 0.9390vw, 3.125rem);
+    height: clamp(2.5rem, 2.2799rem + 0.9390vw, 3.125rem);
+    /* Desktop */
+    /* border-radius: 50px */
+    /* font-size: 1rem; */
+    /* width: 50px; */
+    /* height: 50px; */
     
 }
 
