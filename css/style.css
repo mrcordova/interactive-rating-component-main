@@ -164,7 +164,7 @@ input[type="radio"] {
     width: 144px;
     height: 100px;
 }
-.thank-you-para {
+.thank-you-score {
     color: var(--orange);
     background-color: hsl(from var(--dark-blue) h s l / 1);
 
