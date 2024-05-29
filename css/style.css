@@ -56,12 +56,14 @@ label {
 }
 
 label:has(input[type="radio"]:checked) {
-    background-color: red;
+    background-color: var(--white);
+    color: var(--very-dark-blue);
     
 }
 label:is(:hover, :focus) {
     cursor:  pointer;
-    filter: brightness(3);
+    color: var(--very-dark-blue);
+    background-color: var(--orange);
 }
 
 input[type="radio"] {
@@ -111,5 +113,5 @@ input[type="radio"] {
 }
 .submit-btn:is(:hover, :focus) {
     cursor: pointer;
-
+    background-color: var(--white);
 }
