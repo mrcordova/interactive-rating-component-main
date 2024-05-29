@@ -148,7 +148,8 @@ input[type="radio"] {
     
     
     inline-size: clamp(20.5rem, 18.6338rem + 7.9624vw, 25.8rem);
-    block-size: 22.5rem;
+    /* block-size: 22.5rem; */
+    block-size: 26rem;
     padding-inline: clamp(1.6rem, 1.4592rem + 0.6009vw, 2rem) clamp(1.6rem, 1.3183rem + 1.2019vw, 2.4rem);
     padding-block: clamp(1rem, 0.5775rem + 1.8028vw, 2.2rem) clamp(1rem, 0.6127rem + 1.6526vw, 2.1rem);
     border-radius: clamp(1.25rem, 1.0299rem + 0.9390vw, 1.875rem);
@@ -156,19 +157,34 @@ input[type="radio"] {
 
 .thank-you-head {
     color: var(--white);
-    font-size: 1.5rem;
+
+    /* Mobile */
+    /* font-size: 1.5rem; */
+    /* margin-block-end: 0.65rem; */
+    
+    /* Desktop */
+    font-size: 1.75rem;
     margin-block-end: 0.65rem;
 }
 
 .thank-you-img {
-    margin-block: 1rem 1.4rem;
-    width: 144px;
-    height: 100px;
+    /* Mobile */
+    /* margin-block: 1rem 1.4rem; */
+    /* width: 144px; */
+    /* height: 100px; */
+    /* Desktop */
+    margin-block: 1rem 1.95rem;
+    width: 164px;
+    height: 105px;
 }
 .thank-you-para {
     color: var(--light-grey);
 
-    font-size: 0.88rem;
+    /* Mobile */
+    /* font-size: 0.88rem; */
+    /* text-align: center; */
+    /* Desktop */
+    font-size: 0.95rem;
     text-align: center;
 }
 
@@ -176,9 +192,17 @@ input[type="radio"] {
     color: var(--orange);
     background-color: hsl(from var(--dark-blue) h s l / 1);
 
-    font-size: 0.88rem;
-    padding-inline: 0.8rem;
-    padding-block: 0.4rem 0.3rem;
+    /* Mobile */
+    /* font-size: 0.88rem; */
+    /* padding-inline: 0.8rem; */
+    /* padding-block: 0.4rem 0.3rem; */
+    /* border-radius: 50px; */
+    /* margin-block-end: 1.7rem; */
+    /* Desktop */
+    background-color: red;
+    font-size: 0.95rem;
+    padding-inline: 1.1rem;
+    padding-block: 0.4rem 0.2rem;
     border-radius: 50px;
     margin-block-end: 1.7rem;
 
