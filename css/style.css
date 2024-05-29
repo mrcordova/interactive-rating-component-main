@@ -45,7 +45,7 @@ body {
     /* Desktop */
     inline-size: 25.8rem;
     padding-inline: 2rem 2.4rem;
-    padding-block:  2.4rem 3rem;
+    padding-block:  2rem 1rem;
     border-radius: 30px;
 }
 .hide {
