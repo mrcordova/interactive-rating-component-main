@@ -105,25 +105,25 @@ input[type="radio"] {
     /* width: 42px; */
     /* height: 42px; */
     /* border-radius: 50px; */
-
-    /* Desktop */
-    width: 50px;
-    height: 50px;
+    width: clamp(2.625rem, 2.4489rem + 0.7512vw, 3.125rem);;
+    height: clamp(2.625rem, 2.4489rem + 0.7512vw, 3.125rem);;
     border-radius: 50px;
+    /* Desktop */
+    /* width: 50px; */
+    /* height: 50px; */
+    /* border-radius: 50px; */
     
    
 }
 
 .radio-grp {
     display: flex;
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* text-align: center; */
-    /* align-items: center; */
+    
     justify-content: space-between;
 
+    padding-block-start: clamp(0rem, -0.5282rem + 2.2535vw, 1.5rem);
     /* Desktop */
-    padding-block-start: 1.5rem;
+    /* padding-block-start: 1.5rem; */
     /* margin-block-start: 1.7rem; */
 }
 
