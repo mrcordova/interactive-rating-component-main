@@ -148,10 +148,12 @@ input[type="radio"] {
     /* max-width: 31ch; */
     /* padding-block: 1rem 1.5rem;  */
 
+    font-size: clamp(0.88rem, 0.8554rem + 0.1052vw, 0.95rem);
+    padding-block: clamp(0.7rem, 1.1056rem + -0.4507vw, 1rem) clamp(0rem, 2.0282rem + -2.2535vw, 1.5rem);
     /* Desktop */
-    font-size: 0.95rem;
+    /* font-size: 0.95rem; */
     max-width: 38ch;
-    padding-block: 0.7rem 0rem;
+    /* padding-block: 0.7rem 0rem; */
 }
 .submit-btn {
 
