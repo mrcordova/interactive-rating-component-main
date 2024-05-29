@@ -32,10 +32,17 @@ body {
 .ratings-card {
     display: flex;
     flex-direction: column;
-    inline-size: 20.5rem;
     background-color: hsl( from var(--dark-blue) h s l / 0.5);
-    padding-inline: 1.6rem;
-    padding-block:  1rem 1rem;
+
+    /* Mobile */
+    /* inline-size: 20.5rem; */
+    /* padding-inline: 1.6rem; */
+    /* padding-block:  1rem 1rem; */
+
+    /* Desktop */
+    inline-size: 25.8rem;
+    padding-inline: 2rem;
+    padding-block:  2.4rem 3rem;
 
     border-radius: 20px;
 }
