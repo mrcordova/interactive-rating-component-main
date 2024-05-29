@@ -1,7 +1,7 @@
 const scoreRadioChoices = document.querySelectorAll('input[name="ratings"]');
 const submitBtn = document.querySelector('.submit-btn');
 
-let currentScoreVal = document.querySelector('input[type="radio"]:checked').value;
+let currentScoreVal = 0;
 
 
 
@@ -16,6 +16,7 @@ for (const scoreRadioChoice of scoreRadioChoices) {
 
 submitBtn.addEventListener('click', (e) => {
     e.preventDefault();
+
 
     const scorePara = document.querySelector('.thank-you-score');
     const thankYouCard = document.querySelector('.thank-you-card');
