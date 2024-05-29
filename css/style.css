@@ -152,7 +152,7 @@ input[type="radio"] {
     padding-block: clamp(0.7rem, 1.1056rem + -0.4507vw, 1rem) clamp(0rem, 2.0282rem + -2.2535vw, 1.5rem);
     /* Desktop */
     /* font-size: 0.95rem; */
-    max-width: 38ch;
+    max-width: minmax(31ch, 38ch);
     /* padding-block: 0.7rem 0rem; */
 }
 .submit-btn {
