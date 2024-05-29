@@ -172,6 +172,7 @@ input[type="radio"] {
     padding-inline: 0.8rem;
     padding-block: 0.4rem 0.3rem;
     border-radius: 50px;
+    margin-block-end: 1.7rem;
 
 }
 
