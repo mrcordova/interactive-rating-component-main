@@ -30,36 +30,10 @@ body {
     background-color: var(--very-dark-blue);
 }
 
-.thank-you-card {
-        display: flex;
-        flex-direction: column;
-        background-color: hsl(from var(--dark-blue) h s l / 0.5);
-        
-        
-        
-        inline-size: clamp(20.5rem, 18.6338rem + 7.9624vw, 25.8rem);
-        block-size: 22.5rem;
-        padding-inline: clamp(1.6rem, 1.4592rem + 0.6009vw, 2rem) clamp(1.6rem, 1.3183rem + 1.2019vw, 2.4rem);
-        padding-block: clamp(1rem, 0.5775rem + 1.8028vw, 2.2rem) clamp(1rem, 0.6127rem + 1.6526vw, 2.1rem);
-        border-radius: clamp(1.25rem, 1.0299rem + 0.9390vw, 1.875rem);
-}
 
-.ratings-card {
-    display: flex;
-    flex-direction: column;
-    background-color: hsl( from var(--dark-blue) h s l / 0.5);
 
- 
 
-    inline-size: clamp(20.5rem, 18.6338rem + 7.9624vw, 25.8rem);
-    padding-inline: clamp(1.6rem, 1.4592rem + 0.6009vw, 2rem) clamp(1.6rem, 1.3183rem + 1.2019vw, 2.4rem);
-    padding-block: clamp(1rem, 0.5775rem + 1.8028vw, 2.2rem) clamp(1rem, 0.6127rem + 1.6526vw, 2.1rem);
-    border-radius: clamp(1.25rem, 1.0299rem + 0.9390vw, 1.875rem);
-  
-}
-.hide {
-    display: none;
-}
+
 label {
     display: flex;
     align-items: center;
@@ -106,6 +80,7 @@ input[type="radio"] {
    
 }
 
+
 .radio-grp {
     display: flex;
     
@@ -114,7 +89,19 @@ input[type="radio"] {
     padding-block-start: clamp(0rem, -0.5282rem + 2.2535vw, 1.5rem);
    
 }
+.ratings-card {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl( from var(--dark-blue) h s l / 0.5);
 
+ 
+
+    inline-size: clamp(20.5rem, 18.6338rem + 7.9624vw, 25.8rem);
+    padding-inline: clamp(1.6rem, 1.4592rem + 0.6009vw, 2rem) clamp(1.6rem, 1.3183rem + 1.2019vw, 2.4rem);
+    padding-block: clamp(1rem, 0.5775rem + 1.8028vw, 2.2rem) clamp(1rem, 0.6127rem + 1.6526vw, 2.1rem);
+    border-radius: clamp(1.25rem, 1.0299rem + 0.9390vw, 1.875rem);
+  
+}
 .rating-head {
     color: var(--white);
 
@@ -135,6 +122,17 @@ input[type="radio"] {
     max-width: minmax(31ch, 38ch);
    
 }
+
+.selected-para {
+    color: var(--orange);
+    background-color: hsl(from var(--dark-blue) h s l / 1);
+
+    font-size: 0.88rem;
+    padding-inline: 0.8rem;
+    padding-block: 0.4rem 0.3rem;
+    border-radius: 50px;
+
+}
 .submit-btn {
 
     background-color: var(--orange);
@@ -149,4 +147,32 @@ input[type="radio"] {
 .submit-btn:is(:hover, :focus) {
     cursor: pointer;
     background-color: var(--white);
+}
+
+.thank-you-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(from var(--dark-blue) h s l / 0.5);
+
+
+
+    inline-size: clamp(20.5rem, 18.6338rem + 7.9624vw, 25.8rem);
+    block-size: 22.5rem;
+    padding-inline: clamp(1.6rem, 1.4592rem + 0.6009vw, 2rem) clamp(1.6rem, 1.3183rem + 1.2019vw, 2.4rem);
+    padding-block: clamp(1rem, 0.5775rem + 1.8028vw, 2.2rem) clamp(1rem, 0.6127rem + 1.6526vw, 2.1rem);
+    border-radius: clamp(1.25rem, 1.0299rem + 0.9390vw, 1.875rem);
+}
+
+.thank-you-head {
+    
+}
+
+.thank-you-img {
+    width: 140px;
+    height: 100px;
+}
+
+.hide {
+    display: none;
 }
