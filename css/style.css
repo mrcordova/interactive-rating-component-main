@@ -123,26 +123,16 @@ input[type="radio"] {
    
 }
 
-.selected-para {
-    color: var(--orange);
-    background-color: hsl(from var(--dark-blue) h s l / 1);
-
-    font-size: 0.88rem;
-    padding-inline: 0.8rem;
-    padding-block: 0.4rem 0.3rem;
-    border-radius: 50px;
-
-}
 .submit-btn {
-
+    
     background-color: var(--orange);
-
+    
     margin-block: clamp(1.5rem, 1.3239rem + 0.7512vw, 2rem) clamp(0rem, 1.3521rem + -1.5023vw, 1rem); 
     padding-inline: clamp(6.8rem, 6.0958rem + 3.0047vw, 8.8rem);
     padding-block: clamp(0.6rem, 0.7352rem + -0.1502vw, 0.7rem);
     border-radius: 40px;
     font-size: 1rem;
-  
+    
 }
 .submit-btn:is(:hover, :focus) {
     cursor: pointer;
@@ -154,9 +144,9 @@ input[type="radio"] {
     flex-direction: column;
     align-items: center;
     background-color: hsl(from var(--dark-blue) h s l / 0.5);
-
-
-
+    
+    
+    
     inline-size: clamp(20.5rem, 18.6338rem + 7.9624vw, 25.8rem);
     block-size: 22.5rem;
     padding-inline: clamp(1.6rem, 1.4592rem + 0.6009vw, 2rem) clamp(1.6rem, 1.3183rem + 1.2019vw, 2.4rem);
@@ -173,6 +163,16 @@ input[type="radio"] {
     margin-block: 1rem 1.4rem;
     width: 144px;
     height: 100px;
+}
+.thank-you-para {
+    color: var(--orange);
+    background-color: hsl(from var(--dark-blue) h s l / 1);
+
+    font-size: 0.88rem;
+    padding-inline: 0.8rem;
+    padding-block: 0.4rem 0.3rem;
+    border-radius: 50px;
+
 }
 
 .hide {
