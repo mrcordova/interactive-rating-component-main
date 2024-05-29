@@ -148,11 +148,9 @@ input[type="radio"] {
     
     
     inline-size: clamp(20.5rem, 18.6338rem + 7.9624vw, 25.8rem);
-    /* block-size: 22.5rem; */
-    /* block-size: 26rem; */
+  
     padding-inline: clamp(1.6rem, 1.4592rem + 0.6009vw, 2rem) clamp(1.6rem, 1.3183rem + 1.2019vw, 2.4rem);
-    /* clamp(1rem, 0.6127rem + 1.6526vw, 2.1rem) */
-    /* 2.6rem */
+   
     padding-block: clamp(1rem, 0.5775rem + 1.8028vw, 2.2rem) clamp(2.3rem, 2.1944rem + 0.4507vw, 2.6rem);
     border-radius: clamp(1.25rem, 1.0299rem + 0.9390vw, 1.875rem);
 }
@@ -160,41 +158,26 @@ input[type="radio"] {
 .thank-you-head {
     color: var(--white);
 
-    /* Mobile */
-    /* font-size: 1.5rem; */
-    /* margin-block-end: 0.65rem; */
-    
+  
     font-size: clamp(1.5rem, 1.4120rem + 0.3756vw, 1.75rem);
     margin-block-end: clamp(0.55rem, 0.6852rem + -0.1502vw, 0.65rem);
     margin-inline-start: clamp(0rem, -0.1761rem + 0.7512vw, 0.5rem);
-    /* Desktop */
-    /* font-size: 1.75rem; */
-    /* margin-block-end: 0.55rem; */
-    /* margin-inline-start: 0.5rem; */
+  
 }
 
 .thank-you-img {
-    /* Mobile */
-    /* margin-block: 1rem 1.4rem; */
-    /* width: 144px; */
-    /* height: 100px; */
+  
     margin-block: 1rem  clamp(1.4rem, 1.2063rem + 0.8263vw, 1.95rem);
     width: clamp(9rem, 8.5599rem + 1.8779vw, 10.25rem);
     height: clamp(6.25rem, 6.1400rem + 0.4695vw, 6.5625rem);
-    /* Desktop */
-    /* margin-block: 1rem 1.95rem; */
-    /* width: 164px; */
-    /* height: 105px; */
+   
 }
 .thank-you-para {
     color: var(--light-grey);
 
-    /* Mobile */
-    /* font-size: 0.88rem; */
-    /* text-align: center; */
+  
     font-size: clamp(0.88rem, 0.8554rem + 0.1052vw, 0.95rem);
-    /* Desktop */
-    /* font-size: 0.95rem; */
+   
     text-align: center;
 }
 
@@ -202,13 +185,7 @@ input[type="radio"] {
     color: var(--orange);
     background-color: hsl(from var(--dark-blue) h s l / 1);
 
-    /* text-align: c; */
-    /* Mobile */
-    /* font-size: 0.88rem; */
-    /* padding-inline: 0.8rem; */
-    /* padding-block: 0.4rem 0.3rem; */
-    /* border-radius: 50px; */
-    /* margin-block-end: 1.7rem; */
+
 
     font-size: clamp(0.88rem, 0.8624rem + 0.0751vw, 0.93rem);
     padding-inline: clamp(0.8rem, 0.6944rem + 0.4507vw, 1.1rem) clamp(0.8rem, 0.6239rem + 0.7512vw, 1.3rem);
@@ -216,15 +193,7 @@ input[type="radio"] {
     margin-inline-start: clamp(0rem, -0.1761rem + 0.7512vw, 0.5rem);
     margin-block-end: clamp(1.7rem, 1.5592rem + 0.6009vw, 2.1rem);
     border-radius: clamp(3.125rem, 2.9049rem + 0.9390vw, 3.75rem);
-    /* Desktop */
-    /* background-color: red; */
 
-    /* font-size: 0.93rem; */
-    /* padding-inline: 1.1rem 1.3rem; */
-    /* margin-inline-start: 0.5rem; */
-    /* padding-block: 0.4rem 0.3rem; */
-    /* border-radius: 60px; */
-    /* margin-block-end: 2.1rem; */
 
 }
 
